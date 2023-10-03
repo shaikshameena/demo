@@ -1,10 +1,15 @@
 #include "factorial.h"
-
-int main(<command line args>)
+#include<stdio.h>
+int main(int argc,char*argv[])
 {
-    // Process command line argument for number
-    // Call factoial_num() which is declared and defined in factorial module.
-    // Print result.
+    int x,r;
+    if(argc!=2)
+    {
+        printf("Usage: %s <number>\n", argv[0]);
+    }
+    x=atoi(argv[1]);
+    r=fact(x);
+    printf("factv of %d is=%d",x,r);
 
     return 0;
 }
