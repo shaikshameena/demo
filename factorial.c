@@ -6,7 +6,7 @@ int factorial (int number)
     {
          return 0;
     }
-    gu
+
   else
   {
        return number * fact(number - 1);

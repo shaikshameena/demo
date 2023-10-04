@@ -11,7 +11,7 @@ int main( int argc, char* argv[])
     }
 
     number = atoi(argv[1]);
-    result = factorial (number);
+    result = factorial(number);
     printf("factorial  of %d is=%d", number, result);
 
     return 0;
