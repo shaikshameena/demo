@@ -1,7 +1,15 @@
-int fact(int n)
+#include "factorial.h"
+
+int factorial (int number)
 {
-    if(n==0)
-    return 1;
+    if (number == 0)
+    {
+         return 0;
+    }
+    gu
   else
-  return n*fact(n-1);
+  {
+       return number * fact(number - 1);
+  }
+  
 }
