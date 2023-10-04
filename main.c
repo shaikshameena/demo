@@ -1,15 +1,18 @@
 #include "factorial.h"
-#include<stdio.h>
-int main(int argc,char*argv[])
+
+#include <stdio.h>
+
+int main(int argc, char* argv[])
 {
-    int x,r;
-    if(argc!=2)
+    int number,result;
+    if(argc != 2)
     {
         printf("Usage: %s <number>\n", argv[0]);
     }
-    x=atoi(argv[1]);
-    r=fact(x);
-    printf("factv of %d is=%d",x,r);
+
+    number = atoi(argv[1]);
+    result = factorial(number);
+    printf("factorial  of %d is = %d", number, result);
 
     return 0;
 }
