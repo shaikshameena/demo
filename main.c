@@ -4,8 +4,8 @@
 
 int main(int argc, char* argv[])
 {
-    int number,result;
-    if(argc != 2)
+    int number, result;
+    if (argc != 2)
     {
         printf("Usage: %s <number>\n", argv[0]);
     }
