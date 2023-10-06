@@ -1,8 +1,8 @@
 #include "factorial.h"
 
-#include<stdio.h>
+#include <stdio.h>
 
-int main( int argc, char* argv[])
+int main(int argc, char* argv[])
 {
     int number, result;
     if (argc != 2)
@@ -12,7 +12,7 @@ int main( int argc, char* argv[])
 
     number = atoi(argv[1]);
     result = factorial(number);
-    printf("factorial  of %d is=%d", number, result);
+    printf("factorial  of %d is = %d", number, result);
 
     return 0;
 }

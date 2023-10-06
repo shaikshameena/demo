@@ -1,15 +1,16 @@
 #include "factorial.h"
 
-int factorial (int number)
+int factorial(int number)
 {
-    if (number == 0)
-    {
-         return 0;
-    }
-
-  else
-  {
-       return number * fact(number - 1);
-  }
-  
+     if (number == 0)    
+     {
+         return 1;
+     }
+     else 
+     {
+         return number * factorial(number - 1);
+     }
 }
+
+    
+
