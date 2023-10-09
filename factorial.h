@@ -1,3 +1,3 @@
-#include"factorial.c"
+#include"factorial.h"
 
     int factorial(int number);
