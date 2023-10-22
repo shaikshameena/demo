@@ -1,30 +1,28 @@
-#include <stdio.h>
+#include "fp.h"
 
-#include "functiopointer.h"
-
-int add(int a, int b) 
+int add(int number1, int number2) 
 {
-    return a + b;
+    return number1 + number2;
 }
 
-int subtract(int a, int b) 
+int subtract(int number1, int number2) 
 {
-    return a - b;
+    return number1 - number2;
 }
 
-int multiply(int a, int b) 
+int multiply(int number1, int number2) 
 {
-    return a * b;
+    return number1 * number2;
 }
 
-int divide(int a, int b) 
+int divide(int number1, int number2) 
 {
-    if (b != 0) 
+    if (number2 != 0) 
     {
-        return a / b;
-    } else 
+        return number1 / number2;
+    } 
+    else 
     {
         return 0; // Handle division by zero
     }
-
 }
